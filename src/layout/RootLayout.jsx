@@ -11,7 +11,7 @@ function RootLayout() {
     <>
       <header className="bg-nav-color text-text-color text-xl h-20 flex ">
         <div className="container flex mx-auto justify-between ">
-          <div className="block px-5 py-2 self-center transition hover:text-accent-color hover:tracking-wider">
+          <div className="block px-5 py-2 self-center transition hover:text-accent-color underline hover:underline-offset-4">
             some nice logo
           </div>
           <button className="md:hidden px-5" onClick={handleShowNav}>
@@ -34,13 +34,13 @@ function RootLayout() {
               showNav ? "right-0" : "-right-full"
             } transition-all`}>
             <ul className="md:flex">
-              <li className="block px-5 py-2 transition hover:text-accent-color hover:tracking-wider">
+              <li className="block px-5 py-2 transition hover:text-accent-color underline underline-offset-4  decoration-accent-color hover:underline hover:underline-offset-8">
                 <NavLink to="/">about </NavLink>
               </li>
-              <li className="block px-5 py-2 transition hover:text-accent-color hover:tracking-wider">
+              <li className="block px-5 py-2 transition hover:text-accent-color underline underline-offset-4 decoration-accent-color hover:underline hover:underline-offset-8">
                 <NavLink to="/">projects </NavLink>
               </li>
-              <li className="block px-5 py-2 transition hover:text-accent-color hover:tracking-wider">
+              <li className="block px-5 py-2 transition hover:text-accent-color underline underline-offset-4 decoration-accent-color hover:underline hover:underline-offset-8">
                 <NavLink to="/">contact</NavLink>
               </li>
             </ul>
