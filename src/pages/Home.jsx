@@ -39,7 +39,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="mx-auto app w-4/5">
+      <div className="mx-auto app w-4/5 pt-10">
         <Icons />
       </div>
     </>

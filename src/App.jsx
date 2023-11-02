@@ -8,12 +8,12 @@ import {
 import RootLayout from "./layout/RootLayout.jsx";
 // pages
 import Home from "./pages/Home.jsx";
-import About from "./pages/About";
+import Projects from "./pages/Projects.jsx";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
       <Route index element={<Home />} />
-      <Route path="/about" element={<About />} />
+      <Route path="/projects" element={<Projects />} />
     </Route>
   )
 );

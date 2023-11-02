@@ -1,9 +1,10 @@
 export default function Icons() {
   return (
-    <div className="flex justify-center space-x-12">
+    <div className="flex justify-center flex-wrap space-x-12 ">
       <svg
         width="70"
         height="70"
+        className="flex-shrink-0 m-8"
         viewBox="0 0 101 101"
         fill="none"
         xmlns="http://www.w3.org/2000/svg">
@@ -19,6 +20,7 @@ export default function Icons() {
       <svg
         width="70"
         height="70"
+        className="flex-shrink-0 m-8"
         viewBox="0 0 90 100"
         fill="none"
         xmlns="http://www.w3.org/2000/svg">
@@ -42,6 +44,7 @@ export default function Icons() {
       <svg
         width="70"
         height="70"
+        className="flex-shrink-0 m-8"
         viewBox="0 0 89 100"
         fill="none"
         xmlns="http://www.w3.org/2000/svg">
@@ -73,6 +76,7 @@ export default function Icons() {
       <svg
         width="70"
         height="70"
+        className="flex-shrink-0 m-8"
         viewBox="0 0 101 101"
         fill="none"
         xmlns="http://www.w3.org/2000/svg">
@@ -84,6 +88,7 @@ export default function Icons() {
       <svg
         width="70"
         height="70"
+        className="flex-shrink-0 m-8"
         viewBox="0 0 100 101"
         fill="none"
         xmlns="http://www.w3.org/2000/svg">
@@ -110,6 +115,7 @@ export default function Icons() {
       <svg
         width="70"
         height="70"
+        className="flex-shrink-0 m-8"
         viewBox="0 0 101 52"
         fill="none"
         xmlns="http://www.w3.org/2000/svg">
@@ -135,6 +141,7 @@ export default function Icons() {
       <svg
         width="70"
         height="70"
+        className="flex-shrink-0 m-8"
         viewBox="0 0 101 100"
         fill="none"
         xmlns="http://www.w3.org/2000/svg">
@@ -150,6 +157,7 @@ export default function Icons() {
       <svg
         width="70"
         height="40"
+        className="flex-shrink-0 m-8"
         viewBox="0 0 101 61"
         fill="none"
         xmlns="http://www.w3.org/2000/svg">
@@ -161,6 +169,7 @@ export default function Icons() {
       <svg
         width="70"
         height="40"
+        className="flex-shrink-0 m-8"
         viewBox="0 0 101 76"
         fill="none"
         xmlns="http://www.w3.org/2000/svg">
