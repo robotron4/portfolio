@@ -50,7 +50,9 @@ function RootLayout() {
       <div className="bg-body-color text-text-color font-mono min-h-screen text-lg ">
         <Outlet />
       </div>
-      <footer>footer</footer>
+      <footer className="bg-nav-color text-text-color text-l h-16 py-4 flex justify-center">
+        &copy; Leon Vornholt 2023
+      </footer>
     </>
   );
 }
