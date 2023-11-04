@@ -30,7 +30,7 @@ function RootLayout() {
             </svg>
           </button>
           <nav
-            className={`fixed self-center md:static md:w-auto top-16 bottom-0 bg-nav-color w-40 h-[140px] md:h-auto md:auto ${
+            className={`fixed self-center md:static md:w-auto top-16 bottom-0 bg-nav-color w-40 h-[100px] md:h-auto md:auto ${
               showNav ? "right-0" : "-right-full"
             } transition-all`}>
             <ul className="md:flex">
